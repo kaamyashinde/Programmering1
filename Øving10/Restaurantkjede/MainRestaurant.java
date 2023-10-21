@@ -6,7 +6,7 @@ public class MainRestaurant {
         MenyRegister meny = new MenyRegister();
         Scanner in = new Scanner(System.in);
 
-        /*while(true){
+        while(true){
 
             System.out.println("""
                     Welcome to the restaurant menu register, what would you like to do?
@@ -31,7 +31,7 @@ public class MainRestaurant {
                     in.nextLine(); //clear the input buffer
                     System.out.println("Which dish would you like to get the information about?");
                     String dishName = in.nextLine();
-                    System.out.println(meny.getRettNavn(dishName));
+                    meny.getRettNavn(dishName);
                 }
                 case 3 -> {
                     in.nextLine(); //clear the input buffer
@@ -44,13 +44,13 @@ public class MainRestaurant {
                     in.nextLine(); //clear the input buffer
                     System.out.println("What is the recipe of the dish?");
                     String dishRecipe = in.nextLine();
-                    System.out.println(meny.registerRett(dishName, dishType, dishPrice, dishRecipe));
+                    meny.registerRett(new Rett(dishName, dishType, dishPrice, dishRecipe));
                 }
                 case 4 -> {
                     in.nextLine(); //clear the input buffer
                     System.out.println("What type of dishes would you like to look for?");
                     String dishType = in.nextLine();
-                    System.out.println(meny.getRettType(dishType));
+                    meny.getRettType(dishType);
                 }
                 case 5 -> {
                     in.nextLine(); //clear the input buffer
@@ -59,6 +59,7 @@ public class MainRestaurant {
                     if (num == 0){
                         break;
                     } else {
+                        in.nextLine(); //clear the input buffer
                         for (int i = 0; i < num; i++){
                             System.out.println("What is the name of the dish?");
                             String dishName = in.nextLine();
@@ -68,7 +69,6 @@ public class MainRestaurant {
                         System.out.println("What would u like to call this menu?");
                         String menuName = in.nextLine();
                         meny.newMeny(menuName);
-                        meny.clearNewList(); //to reset the list so that the next menu created would not have any of the previous dishes in the ArrayList
                     }
                 }
                 case 6 -> {
@@ -82,10 +82,23 @@ public class MainRestaurant {
 
             }
 
-        }*/
+        }
+/*
+        meny.getRettType("pasta");
+        meny.getRettNavn("pasta");
+        meny.registerRett(new Rett("Pasta", "Pasta", 100, "Pasta"));
+        meny.getRettNavn("Pasta");
+        meny.getRettType("Pasta");
+        meny.registerRett(new Rett("Pasta", "maincourse", 100, "Pasta"));
+        meny.registerRett(new Rett("Milkshake", "dessert", 180, "Milkshake"));
 
-        meny.registerRett("Pasta", "Pasta", 100, "Pasta");
-        meny.registerRett("Pasta", "Pasta", 100, "Pasta");
+        System.out.println("-------------");
+        meny.getAllDishesName();
+        System.out.println("--------------");
+
+        meny.addDishesToMenu("Pasta");
+        meny.addDishesToMenu("Milkshake");
+*/
 
 
     }
@@ -95,7 +108,7 @@ public class MainRestaurant {
             try {
                 return in.nextInt();
             } catch (java.util.InputMismatchException e) {
-                System.out.println("Du må skrive inn et heltall.");
+                System.out.println("You need to write a whole number");
                 in.nextLine(); // Consume the invalid input
             }
         }

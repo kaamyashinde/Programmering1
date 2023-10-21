@@ -14,65 +14,88 @@ public class MenyRegister {
 
 
     //register en ny rett:
-    public void registerRett(String name, String type, int price, String recipe){
+    public void registerRett(Rett rett){
+        boolean  exists = false;
         for (Rett a: allDishes){
-            if (a.getName().equals(name)){
-                System.out.println("The dish already exists.");
-            } else {
-                allDishes.add(new Rett(name, type, price, recipe));
-                System.out.println("The dish has been registered.");
+            if (a.getName().equals(rett.getName())){
+                exists = true;
+                break;
             }
         }
+        if (exists ) {
+            System.out.println("The dish already exists.");
+        } else {
+            allDishes.add(rett);
+            System.out.println("The dish has been registered.");
+        }
+
     }
 
     //get-metoder
-    public String getRettNavn(String navn){
-        String result = "";
-        for (Rett a : allDishes){
-            if (a.getName().toLowerCase().equals(navn.toLowerCase())){
-                result = a.getName();
+    public void getRettNavn(String navn){
+        if (allDishes.isEmpty()){
+            System.out.println("No dishes have been registered yet");
+        } else {
+            int count = -1;
+            for (Rett a : allDishes){
+                if (a.getName().equals(navn.toLowerCase())){
+                    System.out.println(a.toString());
+                    count = 0;
+                }
+            }
+            if (count == -1){
+                System.out.println("No dishes of the name found");
             }
         }
-        if (result.isEmpty()){
-            result = "Fant ikke retten";
-        }
 
-        return result;
     }
 
-    public String getRettType(String type){
-        String result = "";
-        int count = -1;
-        for (Rett b : allDishes){
-            if (b.getType().toLowerCase().equals(type.toLowerCase())){
-                result += b.toString();
-                count++;
+    public void getRettType(String type){
+        if (allDishes.isEmpty()){
+            System.out.println("No dishes have been registered yet");
+        } else {
+            String result = "";
+            int count = -1;
+            for (Rett b : allDishes){
+                if (b.getType().equals(type.toLowerCase())){
+                    result += b.toString();
+                    count++;
+                }
+            }
+            if (count == -1){
+                System.out.println("No dishes of the type found");
+            } else {
+                System.out.println(result);
             }
         }
-        if (count == -1){
-            result = "Fant ingen retter av denne typen";
-        }
-
-        return result;
     }
 
-    public String getAllDishesName(){
-        String tekst = "";
-        for (Rett a: allDishes){
-            tekst += a.getName();
+    public void getAllDishesName(){
+        if (allDishes.isEmpty()){
+            System.out.println( "No dishes have been registered yet");
+        } else {
+            String tekst = "";
+            for (Rett a: allDishes){
+                tekst += a.getName() + "\n" ;
+            }
+            if (tekst.isEmpty()){
+                tekst = "Fant ingen retter";
+            } else {
+                System.out.println(tekst);
+            }
+
         }
-        if (tekst.isEmpty()){
-            tekst = "Fant ingen retter";
-        }
-        return tekst;
+
     }
 
    //metodene til å lage en ny meny:
     public void addDishesToMenu(String dishName){
+        newList.add(new Rett("name of the dish", "type of the dish", 0, "the recipe"));
 
             for (Rett a: allDishes){
-                if (a.getName().toLowerCase().equals(dishName)){
+                if (a.getName().equals(dishName.toLowerCase())){
                     newList.add(a);
+                    System.out.println(dishName + " has been added");
                 }
             }
 
@@ -95,11 +118,7 @@ public class MenyRegister {
         newList.clear();
     }
 
-    public void printMeny(){
-        for (String i: allMeny.keySet()) {
-            System.out.println(i);
-        }
-    }
+
     public void getTotalMenyPris(){
         int totalPris = 0;
         for (Rett a: newList){

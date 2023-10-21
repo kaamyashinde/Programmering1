@@ -1,9 +1,9 @@
 import java.util.*;
 public class Rett {
-    private String name;
-    private String type;
-    private int price;
-    private String recipe;
+    private final String name;
+    private final String type;
+    private final int price;
+    private final String recipe;
 
     public Rett(String name, String type, int price, String recipe){
         this.name = name;
@@ -14,10 +14,10 @@ public class Rett {
 
     //get-metoder
     public String getName(){
-        return name;
+        return name.toLowerCase();
     }
     public String getType(){
-        return type;
+        return type.toLowerCase();
     }
     public int getPrice(){
         return price;
@@ -26,10 +26,6 @@ public class Rett {
         return recipe;
     }
 
-    //set-metoder
-    public void setPrice(int price){
-        this.price = price;
-    }
 
     @Override
     public String toString() {
