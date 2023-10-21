@@ -40,8 +40,6 @@ public class TekstBehandling {
             }
         }
 
-
-
         for (int i = 0; i < arrayMedByttetOrd.length; i++){ //printe tekst med endret ord
             System.out.print(arrayMedByttetOrd[i]);
             System.out.print(" ");

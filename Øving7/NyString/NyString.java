@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class NyString {
 
-    private String input;
+    private final String input;
     private String s1[];
     private String s2[];
 

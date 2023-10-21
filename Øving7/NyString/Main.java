@@ -9,6 +9,6 @@ public class Main {
         System.out.println("Teksten forkotet er: ");
         str.getForkortning();
         System.out.println("Teksten med en bokstav tatt vekk er: ");
-        str.getFjernet("e");
+        str.getFjernet("a");
     }
 }
