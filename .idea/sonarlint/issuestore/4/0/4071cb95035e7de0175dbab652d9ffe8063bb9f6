@@ -1,0 +1,21 @@
+
+s	java:S135""YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À•Œ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ëíá 
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶¹ÍÈúÿÿÿÿ
+0
+java:S1220""Move this file to a named package.
+1
+java:S36264"Remove this redundant jump.(ÉŠ©ƒ
+@	java:S106"+Replace this use of System.out by a logger.(ğÈ·º
+E	java:S106"+Replace this use of System.out by a logger.(ªÑîêûÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(áµ­”
+@	java:S106"+Replace this use of System.out by a logger.(Ñäâ¼
+E	java:S106"+Replace this use of System.out by a logger.(Ğî×öûÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(ˆìò¼øÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(™€öòÿÿÿÿÿ
+@	java:S106#"+Replace this use of System.out by a logger.(Îñë
+@	java:S1063"+Replace this use of System.out by a logger.(ú¸Ö 
+E	java:S106?"+Replace this use of System.out by a logger.(À“ûÿÿÿÿ
+E	java:S106J"+Replace this use of System.out by a logger.(ìİ€Éıÿÿÿÿ
+E	java:S106U"+Replace this use of System.out by a logger.(À“ûÿÿÿÿ

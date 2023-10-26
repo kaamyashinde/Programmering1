@@ -1,0 +1,33 @@
+
+v
+java:S2293h"YReplace the type specification in this constructor call with the diamond operator ("<>").(ºÉî8Ä©Ë–µ1
+{
+java:S2293v"YReplace the type specification in this constructor call with the diamond operator ("<>").(õ½òÜşÿÿÿÿ8Ä©Ë–µ1
+
+java:S1192""cDefine a constant instead of duplicating this literal "No dishes have been registered yet" 3 times.(ˆœ¼8Ä©Ë–µ1
+9
+java:S16439"Use a StringBuilder instead.(œ‡ê¡8Å©Ë–µ1
+>
+java:S1643K"Use a StringBuilder instead.(íÙÅôúÿÿÿÿ8Å©Ë–µ1
+>
+java:S1643~"Use a StringBuilder instead.(×ŠÔ¨øÿÿÿÿ8Å©Ë–µ1
+?
+java:S1643"Use a StringBuilder instead.(ÿˆŞ üÿÿÿÿ8Å©Ë–µ1
+7
+java:S1220""Move this file to a named package.8Å©Ë–µ1
+G	java:S106"+Replace this use of System.out by a logger.(²øÍ8Ù©Ë–µ1
+L	java:S106"+Replace this use of System.out by a logger.(¸á£ÿÿÿÿÿ8Ù©Ë–µ1
+F	java:S106""+Replace this use of System.out by a logger.(ˆœ¼8Ú©Ë–µ1
+G	java:S106'"+Replace this use of System.out by a logger.(áÂª8Ú©Ë–µ1
+L	java:S106,"+Replace this use of System.out by a logger.(—µ©Æÿÿÿÿÿ8Û©Ë–µ1
+F	java:S1063"+Replace this use of System.out by a logger.(ˆœ¼8Û©Ë–µ1
+G	java:S106>"+Replace this use of System.out by a logger.(äË‚8Û©Ë–µ1
+L	java:S106@"+Replace this use of System.out by a logger.(®ıáëûÿÿÿÿ8Ü©Ë–µ1
+V
+java:S1854N"9Remove this useless assignment to local variable "tekst".(œøùŒ8Ü©Ë–µ1
+F	java:S106G"+Replace this use of System.out by a logger.(ˆœ¼8Ü©Ë–µ1
+L	java:S106P"+Replace this use of System.out by a logger.(Íùì’şÿÿÿÿ8Ü©Ë–µ1
+L	java:S106\"+Replace this use of System.out by a logger.(€–æÏøÿÿÿÿ8İ©Ë–µ1
+F	java:S106c"+Replace this use of System.out by a logger.(•« T8İ©Ë–µ1
+Q
+java:S2864|"4Iterate over the "entrySet" instead of the "keySet".(ö ‰Å8ß©Ë–µ1

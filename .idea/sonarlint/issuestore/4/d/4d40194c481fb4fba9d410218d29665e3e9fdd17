@@ -1,0 +1,20 @@
+
+7
+java:S1220""Move this file to a named package.8³Í£–µ1
+G	java:S106"+Replace this use of System.out by a logger.(Îñë8¾§¨–µ1
+L	java:S106"+Replace this use of System.out by a logger.(Û£áÈøÿÿÿÿ8„Õ®–µ1
+>	java:S131""Add a default case to this switch.(¨ÕÉ8†Õ®–µ1
+L	java:S106 "+Replace this use of System.out by a logger.(ìï¾ıÿÿÿÿ8†Õ®–µ1
+L	java:S106&"+Replace this use of System.out by a logger.(±ÿ‘”ùÿÿÿÿ8ˆÕ®–µ1
+G	java:S106("+Replace this use of System.out by a logger.(–™Šü8ˆÕ®–µ1
+G	java:S106*"+Replace this use of System.out by a logger.(”˜–Ä8‰Õ®–µ1
+L	java:S106-"+Replace this use of System.out by a logger.(ô×Çüÿÿÿÿ8ŠÕ®–µ1
+L	java:S1063"+Replace this use of System.out by a logger.(ÖÀüÿÿÿÿ8ŒÕ®–µ1
+G	java:S1069"+Replace this use of System.out by a logger.(œÍÕÚ8Õ®–µ1
+L	java:S106@"+Replace this use of System.out by a logger.(±ÿ‘”ùÿÿÿÿ8Õ®–µ1
+L	java:S106E"+Replace this use of System.out by a logger.(––ö©ùÿÿÿÿ8Õ®–µ1
+L	java:S106L"+Replace this use of System.out by a logger.(¨ÆÇûÿÿÿÿ8ß°À½µ1
+L	java:S106N"+Replace this use of System.out by a logger.(ÿ‘·ğøÿÿÿÿ8ÒŒÁ½µ1
+L	java:S106P"+Replace this use of System.out by a logger.(õÃ¬‘ÿÿÿÿÿ8ÓŒÁ½µ1
+X	java:S125W"<This block of commented-out lines of code should be removed.(æëßÌ8•Õ®–µ1
+F	java:S106o"+Replace this use of System.out by a logger.(¤ñ¤@8ÕŒÁ½µ1

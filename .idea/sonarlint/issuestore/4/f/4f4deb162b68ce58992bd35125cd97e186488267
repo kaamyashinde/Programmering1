@@ -1,0 +1,27 @@
+
+t
+java:S2293D"YReplace the type specification in this constructor call with the diamond operator ("<>").(•ÂþÅÿÿÿÿÿ
+~
+java:S1192"hDefine a constant instead of duplicating this literal "Det er ingen arrangementer i registeret" 4 times.(¹á¶í
+2
+java:S16434"Use a StringBuilder instead.(ó±ºð
+2
+java:S1643W"Use a StringBuilder instead.(Ž†Å×
+2
+java:S1643f"Use a StringBuilder instead.(Ú™ðý
+2
+java:S1643w"Use a StringBuilder instead.(Ú™ðý
+3
+java:S1643‰"Use a StringBuilder instead.(Ú™ðý
+0
+java:S1220""Move this file to a named package.
+Y
+java:S1155">Use isEmpty() to check whether the collection is empty or not.(Øàúÿýÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(¹á¶í
+E	java:S106"+Replace this use of System.out by a logger.(Ìºõìøÿÿÿÿ
+x
+java:S1157"cReplace these toUpperCase()/toLowerCase() and equals() calls with a single equalsIgnoreCase() call.(±žò
+i
+java:S1602_"SRemove useless curly braces around statement and then remove useless return keyword(ÐŠ–Ó
+i
+java:S1602p"SRemove useless curly braces around statement and then remove useless return keyword( ô•¾

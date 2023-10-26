@@ -1,0 +1,34 @@
+
+s	java:S135	"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ
+0
+java:S1220""Move this file to a named package.
+1
+java:S36269"Remove this redundant jump.(ÉŠ©ƒ
+1
+java:S3626C"Remove this redundant jump.(ÉŠ©ƒ
+1
+java:S3626U"Remove this redundant jump.(ÉŠ©ƒ
+@	java:S106
+"+Replace this use of System.out by a logger.(Îñë
+@	java:S106"+Replace this use of System.out by a logger.(Æ”öÀ
+E	java:S106"+Replace this use of System.out by a logger.(¬ïƒ±úÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(á¦Şşÿÿÿÿ
+@	java:S106 "+Replace this use of System.out by a logger.(­ôà‚
+@	java:S106""+Replace this use of System.out by a logger.(¹¡ğ
+@	java:S106$"+Replace this use of System.out by a logger.(¾î÷Ô
+@	java:S106*"+Replace this use of System.out by a logger.(Îñë
+@	java:S1062"+Replace this use of System.out by a logger.(ã¦«È
+@	java:S1064"+Replace this use of System.out by a logger.(Æ²õ´
+E	java:S1066"+Replace this use of System.out by a logger.(Àíç¬ÿÿÿÿÿ
+?	java:S1068"+Replace this use of System.out by a logger.(˜ƒöR
+?	java:S106="+Replace this use of System.out by a logger.(ÅÒû
+@	java:S106?"+Replace this use of System.out by a logger.(«¯Ÿ‘
+@	java:S106B"+Replace this use of System.out by a logger.(¤å˜
+E	java:S106E"+Replace this use of System.out by a logger.(èïÄüÿÿÿÿ
+E	java:S106I"+Replace this use of System.out by a logger.(™Èã¡ıÿÿÿÿ
+@	java:S106K"+Replace this use of System.out by a logger.(Á‰¹è
+E	java:S106N"+Replace this use of System.out by a logger.(›åÀøøÿÿÿÿ
+E	java:S106Q"+Replace this use of System.out by a logger.(Ú…–¤øÿÿÿÿ
+@	java:S106T"+Replace this use of System.out by a logger.(°À­Ü
+E	java:S106c"+Replace this use of System.out by a logger.(À“ûÿÿÿÿ
+E	java:S106m"+Replace this use of System.out by a logger.(À“ûÿÿÿÿ

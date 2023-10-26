@@ -1,0 +1,11 @@
+
+t
+java:S2293
+"YReplace the type specification in this constructor call with the diamond operator ("<>").(úºÚ‹ùÿÿÿÿ
+0
+java:S1220""Move this file to a named package.
+c	java:S100("NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œÚ»Ý
+A
+java:S1172("+Remove this unused method parameter "navn".(œÚ»Ý
+F
+java:S1068"+Remove this unused "antStud" private field.(ñø©ôøÿÿÿÿ

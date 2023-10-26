@@ -1,0 +1,46 @@
+
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µõ”ü
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µõ”ü
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò‡Ïøúÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜Ñèÿüÿÿÿÿ
+f	java:S117F"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄİŞà
+f	java:S117]"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ½¤»
+f	java:S117i"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½×ÚØ
+g	java:S117ƒ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñîØç
+0
+java:S1220""Move this file to a named package.
+n	java:S116"YRename this field "ansattelsesÃ¥r" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«†’×
+q	java:S116"WRename this field "mÃ¥nedslÃ¸nn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ¯Üªıÿÿÿÿ
+h	java:S116
+"NRename this field "Ã¥r" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼€ù¡úÿÿÿÿ
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò‡Ïøúÿÿÿÿ
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜Ñèÿüÿÿÿÿ
+c	java:S100&"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™»Êÿ
+c	java:S100)"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö¥ƒ
+c	java:S1003"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù‡´Ä
+h	java:S1006"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—ô“Øøÿÿÿÿ
+c	java:S100C"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„«‘Ø
+c	java:S100F"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄİŞà
+G	java:S106R"+Replace this use of System.out by a logger.(Îñë8ÿó¦ßµ1
+L	java:S106\"+Replace this use of System.out by a logger.(Ô¹İçøÿÿÿÿ8‚ô¦ßµ1
+F	java:S106_"+Replace this use of System.out by a logger.(±Í 8ƒô¦ßµ1
+G	java:S106b"+Replace this use of System.out by a logger.(®Úü­8ƒô¦ßµ1
+G	java:S106e"+Replace this use of System.out by a logger.(©ô¿ü8„ô¦ßµ1
+L	java:S106h"+Replace this use of System.out by a logger.(‹ÙÉûÿÿÿÿ8„ô¦ßµ1
+L	java:S106k"+Replace this use of System.out by a logger.(‹Ø°Ãùÿÿÿÿ8…ô¦ßµ1
+G	java:S106n"+Replace this use of System.out by a logger.( ¬Ûö8†ô¦ßµ1
+j	java:S100t"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öÅåŒ8†ô¦ßµ1
+F	java:S106u"+Replace this use of System.out by a logger.(İÃä&8‡ô¦ßµ1
+L	java:S106v"+Replace this use of System.out by a logger.(œÒ“Šúÿÿÿÿ8ˆô¦ßµ1
+L	java:S106w"+Replace this use of System.out by a logger.(ğ‚úøÿÿÿÿ8‰ô¦ßµ1
+@	java:S106}"+Replace this use of System.out by a logger.(³“³
+F	java:S106~"+Replace this use of System.out by a logger.(–´€e8ô¦ßµ1
+G	java:S106"+Replace this use of System.out by a logger.(ÁŒÔ¡8ô¦ßµ1
+F	java:S106€"+Replace this use of System.out by a logger.( †à¯şÿÿÿÿ
+M	java:S106"+Replace this use of System.out by a logger.(æ‹¹§ùÿÿÿÿ8ô¦ßµ1
+H	java:S106‚"+Replace this use of System.out by a logger.(Æé´¢8ô¦ßµ1
+U
+java:S1117ƒ"7Rename "Ã¥r" which hides the field declared at line 10.(ñîØç8‘ô¦ßµ1
+M	java:S106„"+Replace this use of System.out by a logger.(µÆ®øÿÿÿÿ8’ô¦ßµ1
+M	java:S106"+Replace this use of System.out by a logger.(À“ûÿÿÿÿ8”ô¦ßµ1
+M	java:S106—"+Replace this use of System.out by a logger.(ìİ€Éıÿÿÿÿ8–ô¦ßµ1
